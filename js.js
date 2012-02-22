@@ -1,11 +1,8 @@
 $(document).ready(function(){
 	strings = [
 		'Lorem ipsum dolor'
-		,'Also known as thevar1able'
-		,'Resistance is useless!'
-		,'Yet another linux user'
-		,'Cake is a lie!'
-		,'Still alive!'
+		,'String 2'
+		,'Edit me'
 	];
 	$('.about, .likes').toggle();
 	$('.desc a').text(strings[Math.round(Math.random()*strings.length)]);
